@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    background-color:#1C3F5A;
+  }
+
+
+
+.about{
+  /* border: 2px solid black; */
+  margin: 1.5rem;
+  /* height: 75vh; */
+  background-color: white;
+  display: block;
+  overflow: hidden;
+}
+
+.about-me{
+  border: 2px solid gray;
+  background-color: red;
+  color: white;
+  font-size: 2rem;
+  height: 10rem;
+  
+}
+
+
+.know-me{
+  display: flex;
+  margin: 30px;
+  margin-top: 2.5rem;
+}
+.other{
+  /* border: 2px solid green; */
+  height: 100%;
+  padding: 1rem;
+}
+
+
+.Products{
+  display: flex;
+}
+
+.Products h1{
+  /* border: 2px solid purple; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+
+.Price-Details{
+  display: flex;
+  align-items: center;
+}
+
+.boom{
+  display: flex;
+  align-items: center;
+  height: 8rem;
+  font-size: 1.5rem;
+}
+.boom1 ,.boom3{
+  align-items: center;
+  justify-content: center;
+  /* border: 2px dashed gray; */
+  float: left;
+  width: 50%;
+  
+  
+}
+
+.boom2 ,.boom4{
+  align-items: center;
+  justify-content: center;
+  /* border: 2px dashed gray; */
+  float: right;
+  width: 50%;
+  
+}
+.boom h1{
+  margin-right: 5px;
+}
+
+.boom-btn{
+  font-weight: 5oo;
+    padding: 12px 18px;
+    background-color: rgb(83, 255, 83);
+    color: #999999;
+    border-radius: 10px;
+    /* border: 2px solid #0aa5ff; */
+    transition: 0.2s;
+}
+.boom-btn:hover{
+  background-color: rgb(183, 255, 183);
+  color: black;
+}
+
+@media( max-width:500px){
+  html{
+    font-size: 50%;
+    max-width: 100%;
+  }
+
+  body{
+    margin: 0;
+    padding: 0;
+  }
+
+  .about{
+    display: block;
+    margin: 1px;
+    width: 100%;
+  }
+  
+
+  .about-me{
+    margin: 0;
+  }
+
+  .boom-btn{
+    padding: 2%;
+  
+  }
+
+  .boom{
+    display: block;
+    margin-bottom: 10px;
+
+  }
+
+  .boom > h1{
+    width: 100%;
+    text-align: center;
+  }
+
+  .boom > button{
+    width: 90%;
+    margin: 5px;
+    text-align: center;
+    
+  }
+
+
+  
+
+
+
+
+}
+
+
+
+
